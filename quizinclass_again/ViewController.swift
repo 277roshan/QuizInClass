@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var textField: UITextField!
     
@@ -33,13 +33,15 @@ class ViewController: UIViewController {
             celsiusLabel.text = "???"
         }
         
-    
+
     }
     
     
     @IBAction func dismissKeyboard(sender: AnyObject){
         textField.resignFirstResponder()
+     
     }
 
+    
 }
 
