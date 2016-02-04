@@ -26,12 +26,12 @@
                   moduleName = "quizinclass_again"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gorkhali/Desktop/quizinclass_again/quizinclass_again/ViewController.swift"
-                  timestampString = "476302606.397494"
+                  timestampString = "476303178.23765"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "57">
+                  offsetFromSymbolStart = "58">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -41,7 +41,7 @@
                   moduleName = "quizinclass_again"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gorkhali/Desktop/quizinclass_again/quizinclass_again/ViewController.swift"
-                  timestampString = "476302606.397646"
+                  timestampString = "476303178.23793"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"

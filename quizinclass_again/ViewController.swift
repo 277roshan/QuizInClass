@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    
     @IBOutlet var celsiusLabel: UILabel!
+    
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +26,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func fahrenheit(textField: UITextField){
-    celsiusLabel.text = textField.text
+        if let text = textField.text where !text.isEmpty{
+            celsiusLabel.text = text
+        }
+        else{
+            celsiusLabel.text = "???"
+        }
+        
+    
+    }
+    
+    
+    @IBAction func dismissKeyboard(sender: AnyObject){
+        textField.resignFirstResponder()
     }
 
 }
